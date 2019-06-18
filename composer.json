@@ -24,4 +24,5 @@
     "psr-4": {
         "lowbase\\document\\": ""
     }
+  }  
 }
