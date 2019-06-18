@@ -17,7 +17,7 @@
     "kartik-v/yii2-widgets":"*",
     "kartik-v/yii2-grid":"*",
     "mihaildev/yii2-elfinder": "*",
-    "mihaildev/yii2-ckeditor": "*",
+    "2amigos/yii2-ckeditor-widget" : "@dev",
     "lowbase/jstree": "*"
   },
   "autoload": {
