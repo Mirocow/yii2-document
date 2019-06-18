@@ -16,7 +16,7 @@ Yii2-document - независимый модуль из комплекта lowB
 Установка
 ---------
 ```
-php composer.phar require --prefer-dist lowbase/yii2-document "*"
+$ composer require --prefer-dist lowbase/yii2-document "*"
 ```
 или
 ```
