@@ -9,7 +9,7 @@
 use lowbase\document\models\Document;
 use lowbase\document\models\Template;
 use yii\helpers\Html;
-use mihaildev\ckeditor\CKEditor;
+use dosamigos\ckeditor\CKEditor;
 use mihaildev\elfinder\ElFinder;
 use mihaildev\elfinder\InputFile;
 use kartik\widgets\Select2;
@@ -153,7 +153,7 @@ DocumentAsset::register($this);
     <div class="row">
         <div class="col-lg-12">
             <?= $form->field($model, 'content')->widget(CKEditor::className(), [
-                'editorOptions' => ElFinder::ckeditorOptions('elfinder', []),
+                'clientOptions' => ElFinder::ckeditorOptions('elfinder', []),
             ]); ?>
         </div>
     </div>

@@ -24,5 +24,15 @@
     "psr-4": {
         "lowbase\\document\\": ""
     }
-  }  
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/Venbad/yii2-ckeditor-widget.git"
+    }
+  ]
 }
